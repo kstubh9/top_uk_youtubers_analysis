@@ -17,13 +17,13 @@ def get_channel_stats(youtube, channel_id):
     return stats['subscriberCount'], stats['viewCount'], stats['videoCount']
 
 # Load the dataset
-df = pd.read_csv('your_dataset.csv')
+df = pd.read_csv('youtube_data_united-kingdom.csv')
 
 # Extract channel name
 df['channel_name'] = df.iloc[:, 1].apply(extract_channel_name)
 
 # Initialize YouTube API
-api_key = 'YOUR_YOUTUBE_API_KEY'
+api_key = 'AIzaSyBiOvHbFsfULZ_wvz4UvW8L3LSTGRq-k00'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Extract channel ID and get channel stats
