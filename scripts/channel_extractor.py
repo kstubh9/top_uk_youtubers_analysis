@@ -23,7 +23,7 @@ df = pd.read_csv('youtube_data_united-kingdom.csv')
 df['channel_name'] = df.iloc[:, 1].apply(extract_channel_name)
 
 # Initialize YouTube API
-api_key = 'AIzaSyBiOvHbFsfULZ_wvz4UvW8L3LSTGRq-k00'
+api_key = "your-api"
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 # Extract channel ID and get channel stats
