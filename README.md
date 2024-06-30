@@ -7,6 +7,7 @@
 The Head of Marketing is looking to identify the leading YouTubers of 2024 to determine the best candidates for running marketing campaigns for the remainder of the year.
 
 - What is the ideal solution?
+  
 To create a dashboard that provides insights into the top UK YouTubers in 2024, it should include their:
 - subscriber count
 - total views
